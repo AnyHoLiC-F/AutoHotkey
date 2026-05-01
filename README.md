@@ -61,3 +61,13 @@ AutoHotkeyx.vcxproj includes the following Platforms:
   - **x64**: for Windows x64.
 
 AutoHotkey supports Windows XP with or without service packs and Windows 2000 via an asm patch (win2kcompat.asm).  Support may be removed if maintaining it becomes non-trivial.  Older versions are not supported.
+
+## How To Use/Usage Sample ##
+
+The [User Scripts](https://github.com/AnyHoLiC-F/AutoHotkey/tree/alpha/User%20Scripts) folder contains a usable .ahk file for controlling [media playback](https://github.com/AnyHoLiC-F/AutoHotkey/blob/alpha/User%20Scripts/AutoHotkey64.ahk) by using the arrow keys, which also serves as an example for designing a working script for [AutoHotkey v2](https://github.com/AutoHotkey/AutoHotkey).
+
+
+**The remarks below are meant to simplify the script writing process:**
+- The script file should be renamed to "AutoHotkey64" and the format set to ".ahk". This is how the program recognizes the script.
+- The file should be placed in the same directory as the "AutoHotkey64.exe"/"AutoHotkey32.exe" in order for it to work.
+- In case you needed to make changes to the script while the program is running, you may do so by right-clicking the tray icon and clicking "Edit Script". Once the changes are made and saved, right-click the tray icon again and click "Reload Script".
