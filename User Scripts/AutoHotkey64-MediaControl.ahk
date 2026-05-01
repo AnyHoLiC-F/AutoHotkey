@@ -3,9 +3,9 @@
 ;
 ; AutoHotkey - Media Keys
 ; The purpose of this script file is to control the media playback using the following buttons:
-; "Up arrow" and "Down arrow" for play/pause.
-; "Left arrow" for previous track.
-; "Right arrow" for next track.
+; "Alt + Up arrow" and "Alt + Down arrow" for play/pause.
+; "Alt + Left arrow" for previous track.
+; "Alt + Right arrow" for next track.
 
 
 ; Script Beginning "A0"
